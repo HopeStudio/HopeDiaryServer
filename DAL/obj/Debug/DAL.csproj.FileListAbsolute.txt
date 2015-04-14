@@ -1,0 +1,9 @@
+F:\source\practice\HopeDaily\HopeDaily\DAL\bin\Debug\DAL.dll
+F:\source\practice\HopeDaily\HopeDaily\DAL\bin\Debug\DAL.pdb
+F:\source\practice\HopeDaily\HopeDaily\DAL\bin\Debug\Model.dll
+F:\source\practice\HopeDaily\HopeDaily\DAL\bin\Debug\Utils.dll
+F:\source\practice\HopeDaily\HopeDaily\DAL\bin\Debug\Model.pdb
+F:\source\practice\HopeDaily\HopeDaily\DAL\bin\Debug\Utils.pdb
+F:\source\practice\HopeDaily\HopeDaily\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\source\practice\HopeDaily\HopeDaily\DAL\obj\Debug\DAL.dll
+F:\source\practice\HopeDaily\HopeDaily\DAL\obj\Debug\DAL.pdb

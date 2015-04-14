@@ -26,19 +26,19 @@ namespace Hope.HopeDiary.DAL
         private bool _isSucceed = false;
 
         private const string _addSqlText =
-            "INSERT into Hope_Diary(DiaryTitle,DiarySubtitle,AuthorId,DiaryCreateTime,DiaryModifyTime,DiaryContent,UpVoteCount,CommentCount) values                         (@DiaryTitle,@DiarySubtitle,@AuthorId,@DiaryCreateTime,@DiaryModifyTime,@DiaryContent,@UpVoteCount,@CommentCount)";
+            "INSERT into User_Diary(DiaryTitle,DiarySubtitle,AuthorId,DiaryCreateTime,DiaryModifyTime,DiaryContent,UpVoteCount,CommentCount) values                         (@DiaryTitle,@DiarySubtitle,@AuthorId,@DiaryCreateTime,@DiaryModifyTime,@DiaryContent,@UpVoteCount,@CommentCount)";
 
-        private const string _deleteByIdText = "DELETE from Hope_Diary WHERE id = @id";
+        private const string _deleteByIdText = "DELETE from User_Diary WHERE id = @id";
 
         private const string _updateByIdText =
-            "UPDATE Hope_Diary set DiaryTitle = @DiaryTitle,DiarySubtitle = @DiarySubtitle,DiaryModifyTime = @DiaryModifyTime,DiaryContent = @DiaryContent";
+            "UPDATE User_Diary set DiaryTitle = @DiaryTitle,DiarySubtitle = @DiarySubtitle,DiaryModifyTime = @DiaryModifyTime,DiaryContent = @DiaryContent";
 
-        private const string _updateUpVoteCount = "UPDATE Hope_Diary set UpVoteCount = @UpVoteCount where id = @id";
+        private const string _updateUpVoteCount = "UPDATE User_Diary set UpVoteCount = @UpVoteCount where id = @id";
 
-        private const string _updateCommentCount = "Update Hope_Diary set CommentCount=@CommentCount where id = @id";
+        private const string _updateCommentCount = "Update User_Diary set CommentCount=@CommentCount where id = @id";
 
         private const string _selectPagerText =
-            "SELECT top @count * from Hope_Diary where id not in (select top @start id from Hope_Diary)";
+            "SELECT top @count * from User_Diary where id not in (select top @start id from User_Diary)";
 
         /// <summary>
         /// 将单个日志数据保存到数据库
@@ -85,7 +85,7 @@ namespace Hope.HopeDiary.DAL
         }
 
         /// <summary>
-        /// 根据删除对应日志
+        /// 根据id删除对应日志
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>

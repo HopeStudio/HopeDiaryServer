@@ -1,0 +1,5 @@
+F:\source\practice\HopeDaily\HopeDaily\Utils\bin\Debug\Utils.dll
+F:\source\practice\HopeDaily\HopeDaily\Utils\bin\Debug\Utils.pdb
+F:\source\practice\HopeDaily\HopeDaily\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
+F:\source\practice\HopeDaily\HopeDaily\Utils\obj\Debug\Utils.dll
+F:\source\practice\HopeDaily\HopeDaily\Utils\obj\Debug\Utils.pdb

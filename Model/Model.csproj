@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="CommentModel.cs" />
     <Compile Include="DiaryModel.cs" />
+    <Compile Include="MessageModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
